@@ -1,0 +1,40 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a{
+    height: 15rem;
+    width: 15rem;
+    border:1px solid;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: hsl(0deg 87% 45%)
+
+}
+html{
+    font-size: 16px;
+}
+
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+.fav{
+    position: absolute;
+    top: 1px;
+    right: .5rem;
+    font-size: 1.5rem;
+}

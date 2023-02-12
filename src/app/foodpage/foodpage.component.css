@@ -1,0 +1,21 @@
+.container{
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.add{
+    position: relative;
+    top:10px;
+    left: 29rem;
+}
+
+.price{
+    margin-left: 1rem;
+}

@@ -1,0 +1,26 @@
+img{
+    height: 15rem;
+    width: 20rem;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.a{
+    position: relative;
+    left:25rem;
+    bottom: 13rem;
+}
+
+.b{
+    position: relative;
+    left:25rem;
+    bottom: 10rem;
+}
+.foodcount{
+    position: relative;
+    bottom: 2.5rem;
+    left: 12rem;
+}
